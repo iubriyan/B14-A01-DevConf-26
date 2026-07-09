@@ -1,3 +1,9 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -37,4 +43,41 @@ nav{
     font-size: 15px;
     font-weight: bold;
     cursor: pointer;
+}
+
+.hero-section{
+    background-image: url("./images/banner.jpg");
+    height: 85vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+   
+}
+.hero-content{
+    max-width: 1000px;
+}
+.hero-content h1{
+    font-size: 80px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    color: white;
+}
+.em{
+    font-style: italic;
+
+}
+
+.hero-content p{
+    font-size: 22px;
+    color: white;
+    margin-bottom: 24px;
+}
+
+.register-btn{
+    padding: 20px 30px;
+    margin-top: 180px;
+    margin-bottom: 70px;
 }
