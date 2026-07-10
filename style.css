@@ -84,17 +84,15 @@ nav {
   margin-bottom: 70px;
 }
 
-
 /* body section */
 
-.speakers-section{
+.speakers-section {
   max-width: 1200px;
   margin: 80px auto;
   padding: 0 20px;
-
 }
 
-.speakers-section h1{
+.speakers-section h1 {
   text-align: center;
   font-size: 60px;
   font-weight: 700;
@@ -102,15 +100,14 @@ nav {
   margin-bottom: 50px;
 }
 
-.speakers-card-grid{
+.speakers-card-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 30px;
   justify-content: center;
 }
 
-
-.card-style{
+.card-style {
   background-color: white;
   border: 1px solid #e2e8f0;
   border-radius: 12px;
@@ -118,12 +115,12 @@ nav {
   overflow: hidden;
 }
 
-.card-info{
+.card-info {
   padding: 24px;
   text-align: left;
 }
 
-.tag{
+.tag {
   color: blue;
   display: inline-block;
   font-size: 15px;
@@ -131,16 +128,105 @@ nav {
   margin-bottom: 8px;
 }
 
-.speakers-section h3{
+.speakers-section h3 {
   font-size: 24px;
   font-weight: 700;
   color: #1b1b1b;
   margin: 0 0 6px 0;
-
 }
-.title{
+.title {
   font-size: 14;
   color: rgb(98, 96, 96);
 }
 
-/* body section end */
+/* subscription section style */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #f7f8fc;
+}
+
+.subscriptions {
+  width: 90%;
+  max-width: 1200px;
+  margin: 60px auto;
+  text-align: center;
+}
+
+.subscriptions h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: gray;
+  margin-bottom: 50px;
+}
+
+.subscription-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.common-card {
+  background: #fff;
+  width: 320px;
+  padding: 30px;
+  border-radius: 15px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.common-card h4 {
+  color: gray;
+  margin-bottom: 15px;
+}
+
+.common-card h2 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.common-card p {
+  color: gray;
+  margin-bottom: 20px;
+}
+
+.common-card ul {
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+.common-card ul li {
+  margin: 12px 0;
+}
+
+.common-card button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  background: #2962ff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.pro {
+  background: #0f172a;
+  color: white;
+}
+
+.pro h4 {
+  color: #7ca7d8;
+}
+.pro p {
+  color: gray;
+}
+
+/* subscription section end */
