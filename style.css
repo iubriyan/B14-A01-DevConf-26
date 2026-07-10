@@ -198,7 +198,6 @@ body {
 }
 
 .common-card ul {
-  list-style: none;
   margin-bottom: 30px;
 }
 
@@ -230,3 +229,159 @@ body {
 }
 
 /* subscription section end */
+
+/* ===============================
+   Something Missing Section Style
+        Copy From ChatGPT
+================================ */
+
+/* Conference Information */
+
+.event-section {
+  padding: 100px 10%;
+  background: linear-gradient(135deg, #0f172a, #1e3a8a);
+}
+
+.event-title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.event-title h2 {
+  font-size: 48px;
+  color: #fff;
+  margin-bottom: 12px;
+}
+
+.event-title p {
+  color: #cbd5e1;
+  font-size: 18px;
+}
+
+.event-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 35px;
+}
+
+.event-card {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+
+  border: 1px solid rgba(255, 255, 255, 0.15);
+
+  border-radius: 20px;
+
+  padding: 35px;
+
+  transition: 0.35s;
+}
+
+.event-card:hover {
+  transform: translateY(-10px);
+
+  border-color: #3b82f6;
+
+  box-shadow: 0 15px 40px rgba(59, 130, 246, 0.25);
+}
+
+.event-card h3 {
+  color: #fff;
+  font-size: 30px;
+
+  margin-bottom: 30px;
+}
+
+/* Schedule */
+
+.event-item {
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  padding: 18px 0;
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.event-item:last-child {
+  border: none;
+}
+
+.event-item span {
+  color: #60a5fa;
+
+  font-weight: bold;
+
+  font-size: 16px;
+}
+
+.event-item h4 {
+  color: #fff;
+
+  font-size: 17px;
+
+  text-align: right;
+}
+
+/* Location */
+
+.location-box h4 {
+  color: #fff;
+
+  font-size: 22px;
+
+  margin-bottom: 15px;
+}
+
+.location-box p {
+  color: #cbd5e1;
+
+  line-height: 1.8;
+
+  margin-bottom: 25px;
+}
+
+.location-box ul {
+  list-style: none;
+
+  margin-bottom: 25px;
+}
+
+.location-box ul li {
+  color: #e2e8f0;
+
+  margin: 12px 0;
+}
+
+.location-box a {
+  display: inline-block;
+
+  color: #60a5fa;
+
+  text-decoration: none;
+
+  font-weight: 600;
+}
+
+.location-box a:hover {
+  color: #93c5fd;
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+  .event-section {
+    padding: 70px 20px;
+  }
+
+  .event-title h2 {
+    font-size: 36px;
+  }
+
+  .event-title p {
+    font-size: 16px;
+  }
+}
