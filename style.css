@@ -397,7 +397,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
 }
 
 .social-icons {
@@ -416,6 +415,20 @@ body {
   padding-bottom: 40px;
   background-color: #152342;
   color: white;
+}
+
+.policy-section {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding-top: 15px;
+}
+.policy-section a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
 }
 
 /* footer section end */
